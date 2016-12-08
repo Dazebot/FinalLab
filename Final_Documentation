@@ -22,7 +22,7 @@ Clients table needed columns
   
   Step 2
   Once checked for syntax errors the script was run in the container to 
-  create the table and populate it with test data
+  create the table and populate it with test data (all mock data came from www.mockaroo.com)
   
   Step 3
   Unexpected error occured, looking over script for problems. Ended up
