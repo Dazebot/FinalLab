@@ -1,0 +1,37 @@
+Grantit Consulting Services MySQL Database
+Project team: Bryan Weber, Tony, Ray
+
+Platform: MYSQL
+database: gctest
+table: Clients
+
+Clients table needed columns
+  1. id
+  2. first_name
+  3. last_name
+  4. city
+  5. state
+  6. postal_code
+  7. email
+  8. phone
+  
+  Step 1
+  Used documentation from previous experience to create the script in a 
+  docker container using the cat command and a text editor outside of the
+  container
+  
+  Step 2
+  Once checked for syntax errors the script was run in the container to 
+  create the table and populate it with test data
+  
+  Step 3
+  Unexpected error occured, looking over script for problems. Ended up
+  being a simple missed semicolon at the end of the scipt
+  
+  Step 4
+  Script now runs successfully and the database and table are now 
+  fully operational in the container
+  
+  Step 5
+  Backup of the database, both full and schema only, have been made and
+  the project is complete!
